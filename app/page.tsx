@@ -1,5 +1,5 @@
 import ProfileCard from "./components/ProfileCard";
-// import SocialLinks from "./components/SocialLinks";
+import SocialLinks from "./components/SocialLinks";
 // import TechStack from "./components/TechStack";
 // import Experience from "./components/Experience";
 // import LocationWidget from "./components/LocationWidget";
@@ -14,8 +14,8 @@ export default function Home() {
         {/* Left Column */}
         <div className="space-y-6">
           <ProfileCard />
-          {/* <SocialLinks />
-          <TechStack /> */}
+          <SocialLinks />
+          {/* <TechStack /> */}
         </div>
 
         {/* Middle Column */}
